@@ -50,3 +50,4 @@ def write_data(df: DataFrame, target_path: str) -> None:
     except Exception as e:
         logger.error("Error writing data to %s", target_path, exc_info=True)
         raise
+####
