@@ -19,4 +19,4 @@ fi
 # Change directory to the project and run the deployment script
 cd "$PROJECT_DIR" || exit 1
 echo "Running deployment script..."
-python deploy_and_run.py
+python3 deploy_and_run.py
