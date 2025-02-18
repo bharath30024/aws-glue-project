@@ -2,7 +2,7 @@
 # deploy.sh - Clone (or update) the Git repository and run the deployment script.
 
 # Define the Git repository URL (replace with your repository URL)
-REPO_URL="https://github.com/your-username/aws-glue-project.git"
+REPO_URL="https://github.com/bharath30024/aws-glue-project.git"
 PROJECT_DIR="aws-glue-project"
 
 # Clone repository if not already present

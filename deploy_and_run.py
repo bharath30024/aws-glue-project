@@ -34,13 +34,13 @@ print(f"{deploy_script} is now executable.")
 # ======================
 
 AWS_REGION       = os.environ.get("AWS_REGION", "us-east-1")
-S3_BUCKET        = os.environ.get("S3_BUCKET", "your-bucket-name")
+S3_BUCKET        = os.environ.get("S3_BUCKET", "bamma0927")
 S3_CODE_PREFIX   = os.environ.get("S3_CODE_PREFIX", "aws-glue-code")
 JOB_NAME         = os.environ.get("JOB_NAME", "prod-transformation-job")
 IAM_ROLE         = os.environ.get("IAM_ROLE", "AWSGlueServiceRole-MyRole")
 GLUE_VERSION     = os.environ.get("GLUE_VERSION", "3.0")
-SOURCE_PATH      = os.environ.get("SOURCE_PATH", "s3://your-bucket-name/source_data/")
-TARGET_PATH      = os.environ.get("TARGET_PATH", "s3://your-bucket-name/transformed_data/")
+SOURCE_PATH      = os.environ.get("SOURCE_PATH", "s3://bamma0927/source_data/")
+TARGET_PATH      = os.environ.get("TARGET_PATH", "s3://bamma0927/transformed_data/")
 PROJECT_DIR      = os.environ.get("PROJECT_DIR", "aws-glue-project")
 
 # Local paths (assuming repository layout is preserved)
