@@ -190,4 +190,4 @@ def main():
     start_glue_job(JOB_NAME)
 
 if __name__ == "__main__":
-    main() #123456789
+    main() #no test
